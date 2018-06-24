@@ -1,0 +1,31 @@
+h1, h2, h3, h4, h5, h6, small {
+  font-size: 100%; }
+
+b, em, h1, h2, h3, h4, h5, h6, strong {
+  font-weight: 400; }
+
+body, button, input, keygen, legend, select, textarea {
+  font: 14px/1.5 Helvetica,sans-serif;
+  color: #333;
+  outline: 0; }
+
+.fix_header {
+  height: 64px;
+  background-color: #d43c33;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .fix_header .headerr {
+    position: relative;
+    height: 25px; }
+    .fix_header .headerr span {
+      opacity: 0; }
+    .fix_header .headerr .topsvg {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0; }
+
+/*# sourceMappingURL=app.css.map */
